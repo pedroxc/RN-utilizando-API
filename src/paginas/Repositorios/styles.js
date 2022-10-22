@@ -39,6 +39,7 @@ export const WhiteBanner = styled.div`
 export const BackButton = styled.button`
   border: none;
   background-color: white;
+  font-weight: bold;
   :active {
     transform: translateY(4px);
   }
