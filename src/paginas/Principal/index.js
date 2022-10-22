@@ -56,7 +56,7 @@ export default function Principal({ navigation }) {
             </View>
             <TouchableOpacity
               onPress={() =>
-                navigation.navigate("Repositorios", { id: usuario.id })
+                navigation.navigate("Repositorios", { id: usuario.login })
               }
             >
               <Text style={estilos.repositorios}>Ver os repositórios</Text>
