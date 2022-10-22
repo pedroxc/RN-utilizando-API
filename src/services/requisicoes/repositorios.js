@@ -2,7 +2,7 @@ import api from "../api";
 
 export async function pegarRepodoUser(id) {
   try {
-    const resultado = await api.get(`/repos?postId=${id}`);
+    const resultado = await api.get(`/users/${id}/repos`);
     return resultado.data;
   } catch (err) {
     console.log(err);
@@ -11,7 +11,7 @@ export async function pegarRepodoUser(id) {
 }
 export async function salvarRepodoUser(postId, nome, data, id) {
   try {
-    await api.put(`/repos/${id}`, {
+    await api.put(`/users/${id}/repos`, {
       name: nome,
       data: data,
       postId: postId,
