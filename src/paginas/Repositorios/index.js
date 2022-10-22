@@ -25,7 +25,7 @@ export default function Repositorios({ route, navigation }) {
 
       <View style={{ marginTop: 60, alignItems: "center" }}>
         <BackButton onClick={() => navigation.navigate("Principal")}>
-          GOBACK
+          Voltar
         </BackButton>
         <Text style={estilos.repositoriosTexto}>
           {repo.length} repositórios criados
