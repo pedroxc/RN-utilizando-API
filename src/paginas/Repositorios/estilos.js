@@ -7,8 +7,8 @@ const estilos = StyleSheet.create({
     alignItems: "center",
     marginBottom: 20,
     maxHeight: 567,
-    maxWidth: 270,
-    marginLeft: "38%",
+    maxWidth: 250,
+    marginLeft: "40%",
   },
   repositoriosTexto: {
     fontSize: 21,
